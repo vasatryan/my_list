@@ -1,13 +1,5 @@
 #include "linked_list.hpp"
 
-// template<typename T>
-// std::ostream& operator<<(std::ostream& os, const LinkedList<T>& src) {
-//     for (node<T>* current = src.begin(); current != src.end(); current = current->m_next) {
-//         os << current->m_data << " ";
-//     }
-//     return os;
-// }
-
 template<typename T>
 LinkedList<T>::LinkedList() : m_head(nullptr), m_size(0) {
 
